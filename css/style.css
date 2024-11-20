@@ -1,0 +1,266 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poiret+One&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poiret+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+
+.main {
+  background: url(/assets/anna-vi-QUi84upBhoc-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.main {
+  height: 100vh;
+  width: 100%;
+}
+
+body {
+  font-family: "Poiret-One", sans-serif;
+}
+
+h1 {
+  
+}
+
+h2 {
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+p {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.section-heading{
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.horizontal-line-container {
+  display: flex;
+  justify-content: center;
+  margin: -1rem;
+  margin-bottom: 1rem;
+}
+
+.horizontal-line-decoration {
+  height: 3rem;
+  object-fit: contain;
+  justify-content: center;
+  margin: 0;
+}
+
+.horizontal-line {
+  height: 3rem;
+  object-fit: cover;
+  justify-content: center;
+  margin: 0;
+}
+
+.col {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+iframe {
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Navigation Bar */
+
+.navbar-nav .nav-link {
+  font-weight: 300;
+  font-size: 1.3rem;
+}
+
+.brand-name {
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.navbar {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  z-index: 1000;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand h1 {
+  margin: 0;
+}
+
+.navbar-scrolled {
+  background-color: whitesmoke;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+.navbar {
+  transition: all 0.5s;
+}
+
+.navbar.scroll-on {
+  position: fixed;
+  background-color: whitesmoke;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-shadow: 0 0.125rem 1.75rem 0 rgb(0, 0, 0, 0.09);
+  transition: all 0.15s ease-in-out 0s;
+}
+
+/* Weddings */
+
+.weddings {
+  margin-top: 3remv;
+}
+
+.card {
+  margin: 0.15rem;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+  height: 450px;
+  width: 450px;
+  overflow: hidden;
+}
+
+.card img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Carousel */
+
+
+
+.carousel-item {
+  height: 90vh; /* Set your desired height here */
+}
+
+.carousel-item img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+/* Wedding Text */
+
+/* Wedding Films */
+
+/* Commetial section */
+
+.commertial-card {
+  
+  width: 450px;
+  margin: 0.15rem;
+  height: 450px;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.commertial-card .card-img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  left: 0;
+  top: 0;
+  transition: 2s;
+}
+
+.commertial-card:hover .card-img {
+  scale: 1.2;
+}
+
+.card-content {
+  position: absolute;
+  color: #f1f1f1;
+  left: 0;
+  bottom: -100%;
+  padding: 1rem;
+  backdrop-filter: blur(5px);
+  transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.commertial-card:hover .card-content {
+  bottom: 0;
+}
+
+.card-content p {
+  font-weight: 200;
+  font-size: 0.9rem;
+  color: #ddd;
+  margin-top: 7px;
+}
+
+/* CONTACT */
+
+.contact{
+  width: 1140px;
+  margin: auto;
+}
+
+.contact-text-container {
+  flex-direction: column-reverse;
+  padding: 1rem;
+}
+
+.contact-img-container{
+  height: 45rem;
+  width: 100%;
+  overflow: hidden;
+  padding: 1rem;
+}
+
+.contact-img-container img{
+  object-fit: cover;
+}
+
+form{
+  height: auto;
+  padding: 1rem;
+}
+
+/* FOOTER  */
+
+.footer h3{
+  
+}
+
+.socials-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.footer-nav{
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+.footer-nav ul{
+  list-style: none;
+}
+
+.contact-container{
+  display: flex;
+  gap: 1rem;
+}
